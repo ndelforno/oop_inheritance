@@ -52,3 +52,6 @@ class Multilinguist
     json_response['translationText']
   end
 end
+
+traveller = Multilinguist.new
+puts traveller.language_in('france')
